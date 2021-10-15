@@ -1,0 +1,5 @@
+version: "3.3"
+services:
+  build:
+    context: .
+    dockerfile: builds/Dockerfile
