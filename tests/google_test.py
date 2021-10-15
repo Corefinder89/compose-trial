@@ -13,6 +13,7 @@ def test_site():
         driver.get("https://www.google.com")
         title = driver.title
         assert title == "Google"
+        print("Test end ....")
     except WebDriverException as e:
         print(e)
 
