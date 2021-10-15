@@ -5,3 +5,7 @@ services:
       context: .
       dockerfile: builds/Dockerfile
     image: automation-runner:v1.0
+  test:
+    build:
+      context: .
+      dockerfile: run/Dockerfile
