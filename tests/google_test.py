@@ -14,7 +14,7 @@ def test_site():
                 executable_path="driver/macos/chromedriver",
                 options=chrome_options
             )
-        if platform.system() == "linux":
+        else:
             driver = webdriver.Chrome(
                 executable_path="driver/linux/chromedriver",
                 options=chrome_options
