@@ -4,4 +4,4 @@ services:
     build:
       context: .
       dockerfile: builds/Dockerfile
-      image: automation-runner:v1.0
+    image: automation-runner:v1.0
