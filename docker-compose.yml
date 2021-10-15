@@ -1,5 +1,7 @@
 version: "3.3"
 services:
-  build:
-    context: .
-    dockerfile: builds/Dockerfile
+  prerequisites:
+    build:
+      context: .
+      dockerfile: builds/Dockerfile
+      image: automation-runner:v1.0
